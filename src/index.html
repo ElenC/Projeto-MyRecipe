@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="https://www.flaticon.com/svg/static/icons/svg/1980/1980654.svg">
+        <title>MyRECIPE</title>
+    </head>
+    <body>
+        <header>
+            <img src="https://www.flaticon.com/svg/static/icons/svg/850/850555.svg" alt="">
+            <h1>MyRECIPE</h1>
+        </header>
+        <form>
+            <div id="principal">
+                <label for="titl">Título da Receita</label>
+                <input type="text" name="titl" id="title" placeholder="Informe Título" onchange="tituloReceita()"> 
+                
+
+                <label for="ingd">Ingredientes e Quantidades</label> <br>
+                <input type="text" name="ingd" id="ingrediente" placeholder="Ingredientes">
+                <input type="text" name="qtde" id="quantidade" placeholder="Quantidade">
+                <input type="button"name="botao1" id="btn1" value="Adicionar" onclick="cadastrarIQ()"><br>
+
+                <label for="">Modo de Preparo</label> <br>
+                <textarea name="" id="preparo" cols="50" placeholder="Informe os modos de Preparo"></textarea>
+                <input type="button" name="" id="btn2" value="Adicionar" onclick="cadastrarPreparo()">
+                <input type="button" value="Salvar Receita" id="salvar" onclick="saveRecipe()">
+            </div>
+        </form>
+        <div id="result1">
+            
+        </div>
+        
+
+
+        <script src="../node_modules/jquery/dist/jquery.js"></script>
+        <script src="main.js"></script>
+    </body>
+</html>

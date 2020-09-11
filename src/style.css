@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500;1,400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(https://images.unsplash.com/photo-1495195129352-aeb325a55b65?ixlib=rb-1.2.1&auto=format&fit=crop&w=1510&q=80);
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 10vh;
+    background-color: rgb(184, 172, 172);
+}
+img{
+    width: 2vw;
+}
+h1{
+    color: #fff;
+    font-family: 'Lora', serif;
+}
+h2{
+    font-family: 'Lora', serif;
+}
+#principal{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    flex-direction: column;
+    margin: 20px 0 0 30px;
+    width: 45vw;
+    background-color: rgb(184, 173, 173);
+    border-radius: 10px;
+    box-shadow:rgb(192, 175, 175)  0 0 9px 2px;
+}
+label{
+    margin: 8px 0 0 0;
+    line-height: 2em;
+    font-family: 'Syne', sans-serif;
+    
+}
+input{
+    margin: 10px;
+    padding: 5px;
+    font-family: 'Syne', sans-serif;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+}
+textarea{
+    outline: none;
+    border: none;
+    border-radius: 3px;
+}
+#removeTitle{
+    margin-left: 100px;
+    margin-top: -20px;
+}
+
+#salvar{
+    margin: 17px;
+    padding: 10px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-family:'Poppins', sans-serif;;
+    background-color: rgb(202, 193, 192);
+}
+#ordena{
+    background-image: url(https://www.flaticon.com/svg/static/icons/svg/953/953287.svg);
+    background-repeat: no-repeat;
+    width: 7vw;
+    font-size: 14px;
+}
+#ordena2{
+    background-image: url(https://www.flaticon.com/svg/static/icons/svg/620/620270.svg) ;
+    background-repeat: no-repeat;
+    width: 7vw;
+    font-size: 14px;
+}
+#btn1, #btn2, #titleadiciona{
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+    background-color: rgb(153, 119, 126);
+    border: 1px solid rgb(153, 119, 126);
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+#btn1:hover, #btn2:hover{
+    background-color: rgb(94, 47, 55);
+    color: #fff;
+}
+
+/* Resultado Adicionar */
+#result1{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    flex-direction: column;
+    float: right;
+    width:45vw ;
+    margin-top: -500px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+th{
+    padding: 15px;
+    font-family: 'Syne', sans-serif;
+}
+#ordena{
+    width: 7vw;
+}
